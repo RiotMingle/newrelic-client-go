@@ -1,4 +1,4 @@
-module github.com/newrelic/newrelic-client-go
+module github.com/RiotMingle/newrelic-client-go
 
 go 1.18
 
