@@ -9,38 +9,26 @@ import (
 
 // InfrastructureCondition represents a New Relic Infrastructure alert condition.
 type InfrastructureCondition struct {
-	Comparison          string                            `json:"comparison,omitempty"`
-	CreatedAt           *serialization.EpochTime          `json:"created_at_epoch_millis,omitempty"`
-	Critical            *InfrastructureConditionThreshold `json:"critical_threshold,omitempty"`
-	Enabled             bool                              `json:"enabled"`
-	Event               string                            `json:"event_type,omitempty"`
-	Filter              *InfrastructureConditionFilter    `json:"filter,omitempty"`
-	ProcessFilter       *InfrastructureConditionFilter    `json:"process_filter,omitempty"`
-	ID                  int                               `json:"id,omitempty"`
-	IntegrationProvider string                            `json:"integration_provider,omitempty"`
-	Name                string                            `json:"name,omitempty"`
-	PolicyID            int                               `json:"policy_id,omitempty"`
-	ProcessWhere        string                            `json:"process_where_clause,omitempty"`
-	RunbookURL          string                            `json:"runbook_url,omitempty"`
-	Select              string                            `json:"select_value,omitempty"`
-	Type                string                            `json:"type,omitempty"`
-	UpdatedAt           *serialization.EpochTime          `json:"updated_at_epoch_millis,omitempty"`
-	ViolationCloseTimer *int                              `json:"violation_close_timer,omitempty"`
-	Warning             *InfrastructureConditionThreshold `json:"warning_threshold,omitempty"`
-	Where               string                            `json:"where_clause,omitempty"`
-	Description         string                            `json:"description"`
-}
-
-type InfrastructureConditionFilter struct {
-	And []InfrastructureConditionFilterTypes `json:"and,omitempty"`
-	Or  []InfrastructureConditionFilterTypes `json:"or,omitempty"`
-}
-
-type InfrastructureConditionFilterTypes struct {
-	In    map[string][]string `json:"in,omitempty"`
-	Is    map[string]string   `json:"is,omitempty"`
-	IsNot map[string]string   `json:"is_not,omitempty"`
-	Like  map[string]string   `json:"like,omitempty"`
+	Comparison          string                                         `json:"comparison,omitempty"`
+	CreatedAt           *serialization.EpochTime                       `json:"created_at_epoch_millis,omitempty"`
+	Critical            *InfrastructureConditionThreshold              `json:"critical_threshold,omitempty"`
+	Enabled             bool                                           `json:"enabled"`
+	Event               string                                         `json:"event_type,omitempty"`
+	Filter              map[string][]map[string]map[string]interface{} `json:"filter,omitempty"`
+	ProcessFilter       map[string][]map[string]map[string]interface{} `json:"process_filter,omitempty"`
+	ID                  int                                            `json:"id,omitempty"`
+	IntegrationProvider string                                         `json:"integration_provider,omitempty"`
+	Name                string                                         `json:"name,omitempty"`
+	PolicyID            int                                            `json:"policy_id,omitempty"`
+	ProcessWhere        string                                         `json:"process_where_clause,omitempty"`
+	RunbookURL          string                                         `json:"runbook_url,omitempty"`
+	Select              string                                         `json:"select_value,omitempty"`
+	Type                string                                         `json:"type,omitempty"`
+	UpdatedAt           *serialization.EpochTime                       `json:"updated_at_epoch_millis,omitempty"`
+	ViolationCloseTimer *int                                           `json:"violation_close_timer,omitempty"`
+	Warning             *InfrastructureConditionThreshold              `json:"warning_threshold,omitempty"`
+	Where               string                                         `json:"where_clause,omitempty"`
+	Description         string                                         `json:"description"`
 }
 
 // InfrastructureConditionThreshold represents an New Relic Infrastructure alert condition threshold.
