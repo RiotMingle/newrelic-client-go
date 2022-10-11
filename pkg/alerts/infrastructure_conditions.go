@@ -14,7 +14,8 @@ type InfrastructureCondition struct {
 	Critical            *InfrastructureConditionThreshold `json:"critical_threshold,omitempty"`
 	Enabled             bool                              `json:"enabled"`
 	Event               string                            `json:"event_type,omitempty"`
-	Filter              map[string]interface{}            `json:"filter,omitempty"`
+	Filter              *InfrastructureConditionFilter    `json:"filter,omitempty"`
+	ProcessFilter       *InfrastructureConditionFilter    `json:"process_filter,omitempty"`
 	ID                  int                               `json:"id,omitempty"`
 	IntegrationProvider string                            `json:"integration_provider,omitempty"`
 	Name                string                            `json:"name,omitempty"`
@@ -28,6 +29,18 @@ type InfrastructureCondition struct {
 	Warning             *InfrastructureConditionThreshold `json:"warning_threshold,omitempty"`
 	Where               string                            `json:"where_clause,omitempty"`
 	Description         string                            `json:"description"`
+}
+
+type InfrastructureConditionFilter struct {
+	And []InfrastructureConditionFilterTypes `json:"and,omitempty"`
+	Or  []InfrastructureConditionFilterTypes `json:"or,omitempty"`
+}
+
+type InfrastructureConditionFilterTypes struct {
+	In    map[string][]string `json:"in,omitempty"`
+	Is    map[string]string   `json:"is,omitempty"`
+	IsNot map[string]string   `json:"is_not,omitempty"`
+	Like  map[string]string   `json:"like,omitempty"`
 }
 
 // InfrastructureConditionThreshold represents an New Relic Infrastructure alert condition threshold.
