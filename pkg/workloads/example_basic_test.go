@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/common"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/config"
+	"github.com/RiotMingle/newrelic-client-go/pkg/config"
 )
 
 func Example_basic() {

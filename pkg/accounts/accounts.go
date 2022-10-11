@@ -5,8 +5,8 @@ import (
 	"context"
 
 	"github.com/RiotMingle/newrelic-client-go/internal/http"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/config"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/logging"
+	"github.com/RiotMingle/newrelic-client-go/pkg/config"
+	"github.com/RiotMingle/newrelic-client-go/pkg/logging"
 )
 
 // Accounts is used to interact with New Relic accounts.

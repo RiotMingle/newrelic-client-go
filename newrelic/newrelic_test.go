@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/config"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/logging"
+	"github.com/RiotMingle/newrelic-client-go/pkg/logging"
 )
 
 var testAPIkey = "asdf1234"

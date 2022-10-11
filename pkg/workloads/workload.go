@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/RiotMingle/newrelic-client-go/internal/serialization"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/errors"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/nerdgraph"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/users"
+	"github.com/RiotMingle/newrelic-client-go/pkg/errors"
+	"github.com/RiotMingle/newrelic-client-go/pkg/nerdgraph"
+	"github.com/RiotMingle/newrelic-client-go/pkg/users"
 )
 
 // Workload represents a New Relic One workload.

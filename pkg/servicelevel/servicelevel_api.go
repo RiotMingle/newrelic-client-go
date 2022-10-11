@@ -5,7 +5,7 @@ import (
 	"context"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/common"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/errors"
+	"github.com/RiotMingle/newrelic-client-go/pkg/errors"
 )
 
 // Creates a new SLI.

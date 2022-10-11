@@ -2,7 +2,7 @@ package http
 
 import (
 	"github.com/RiotMingle/newrelic-client-go/pkg/config"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/contextkeys"
+	"github.com/RiotMingle/newrelic-client-go/pkg/contextkeys"
 )
 
 // RequestAuthorizer is an interface that allows customizatino of how a request is authorized.

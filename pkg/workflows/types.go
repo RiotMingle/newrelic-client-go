@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/ai"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-go/pkg/nrtime"
 )
 
 // AiWorkflowsCreateErrorType - Type of create error

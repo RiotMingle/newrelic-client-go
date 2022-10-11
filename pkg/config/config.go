@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/RiotMingle/newrelic-client-go/internal/version"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/logging"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/region"
+	"github.com/RiotMingle/newrelic-client-go/pkg/logging"
+	"github.com/RiotMingle/newrelic-client-go/pkg/region"
 )
 
 // Config contains all the configuration data for the API Client.

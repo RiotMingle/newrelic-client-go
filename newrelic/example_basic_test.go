@@ -6,10 +6,10 @@ import (
 	"os"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/alerts"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/apm"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/entities"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/plugins"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/workloads"
+	"github.com/RiotMingle/newrelic-client-go/pkg/apm"
+	"github.com/RiotMingle/newrelic-client-go/pkg/entities"
+	"github.com/RiotMingle/newrelic-client-go/pkg/plugins"
+	"github.com/RiotMingle/newrelic-client-go/pkg/workloads"
 )
 
 func Example_basic() {

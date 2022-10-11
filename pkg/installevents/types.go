@@ -3,7 +3,7 @@ package installevents
 
 import (
 	"github.com/RiotMingle/newrelic-client-go/pkg/common"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-go/pkg/nrtime"
 )
 
 // InstallationInstallStateType - An enum that represent the installation state.

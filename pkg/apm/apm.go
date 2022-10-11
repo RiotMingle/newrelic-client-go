@@ -3,7 +3,7 @@ package apm
 
 import (
 	"github.com/RiotMingle/newrelic-client-go/internal/http"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/config"
+	"github.com/RiotMingle/newrelic-client-go/pkg/config"
 )
 
 // APM is used to communicate with the New Relic APM product.

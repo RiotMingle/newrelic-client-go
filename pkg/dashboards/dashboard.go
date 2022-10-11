@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/common"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/entities"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/errors"
+	"github.com/RiotMingle/newrelic-client-go/pkg/entities"
+	"github.com/RiotMingle/newrelic-client-go/pkg/errors"
 )
 
 // GetDashboardEntity is used to retrieve a single New Relic One Dashboard

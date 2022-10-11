@@ -5,7 +5,7 @@ import (
 	"context"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/common"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/errors"
+	"github.com/RiotMingle/newrelic-client-go/pkg/errors"
 )
 
 // Adds the provided tags to your specified entity, without deleting existing ones.

@@ -6,9 +6,9 @@ import (
 	"fmt"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/accounts"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/common"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrtime"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/users"
+	"github.com/RiotMingle/newrelic-client-go/pkg/common"
+	"github.com/RiotMingle/newrelic-client-go/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-go/pkg/users"
 )
 
 // WorkloadGroupRemainingEntitiesRuleBy - Indicates by which field the remaining entities rule should be grouped.

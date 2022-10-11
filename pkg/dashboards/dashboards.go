@@ -3,8 +3,8 @@ package dashboards
 
 import (
 	"github.com/RiotMingle/newrelic-client-go/internal/http"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/config"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/logging"
+	"github.com/RiotMingle/newrelic-client-go/pkg/config"
+	"github.com/RiotMingle/newrelic-client-go/pkg/logging"
 )
 
 // Dashboards is used to communicate with the New Relic Dashboards product.

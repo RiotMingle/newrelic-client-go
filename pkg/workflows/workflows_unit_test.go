@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/ai"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-go/pkg/nrtime"
 
-	mock "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
+	mock "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 var (
