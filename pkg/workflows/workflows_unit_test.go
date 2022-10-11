@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/newrelic/newrelic-client-go/pkg/ai"
-	"github.com/newrelic/newrelic-client-go/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-go/pkg/ai"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrtime"
 
-	mock "github.com/newrelic/newrelic-client-go/pkg/testhelpers"
+	mock "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
 )
 
 var (

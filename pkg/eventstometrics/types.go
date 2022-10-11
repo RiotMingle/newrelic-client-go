@@ -2,7 +2,7 @@
 package eventstometrics
 
 import (
-	"github.com/newrelic/newrelic-client-go/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-go/pkg/nrtime"
 )
 
 // EventsToMetricsErrorReason - General error categories.

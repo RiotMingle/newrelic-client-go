@@ -4,8 +4,8 @@ package servicelevel
 import (
 	"context"
 
-	"github.com/newrelic/newrelic-client-go/pkg/common"
-	"github.com/newrelic/newrelic-client-go/pkg/errors"
+	"github.com/RiotMingle/newrelic-client-go/pkg/common"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/errors"
 )
 
 // Creates a new SLI.

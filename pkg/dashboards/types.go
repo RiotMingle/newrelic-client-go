@@ -2,10 +2,10 @@
 package dashboards
 
 import (
-	"github.com/newrelic/newrelic-client-go/pkg/common"
-	"github.com/newrelic/newrelic-client-go/pkg/entities"
-	"github.com/newrelic/newrelic-client-go/pkg/nrdb"
-	"github.com/newrelic/newrelic-client-go/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-go/pkg/common"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/entities"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrdb"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrtime"
 )
 
 // DashboardCreateErrorType - Expected error types that can be returned by create operation

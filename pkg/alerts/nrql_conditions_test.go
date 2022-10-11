@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/newrelic/newrelic-client-go/pkg/common"
+	"github.com/RiotMingle/newrelic-client-go/pkg/common"
 
 	"github.com/stretchr/testify/assert"
 )

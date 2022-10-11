@@ -1,10 +1,10 @@
 package alerts
 
 import (
-	"github.com/newrelic/newrelic-client-go/internal/http"
-	"github.com/newrelic/newrelic-client-go/pkg/config"
-	"github.com/newrelic/newrelic-client-go/pkg/infrastructure"
-	"github.com/newrelic/newrelic-client-go/pkg/logging"
+	"github.com/RiotMingle/newrelic-client-go/internal/http"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/config"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/infrastructure"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/logging"
 )
 
 // Alerts is used to communicate with New Relic Alerts.

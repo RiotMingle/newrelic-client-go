@@ -2,9 +2,9 @@
 package servicelevel
 
 import (
-	"github.com/newrelic/newrelic-client-go/pkg/accounts"
-	"github.com/newrelic/newrelic-client-go/pkg/common"
-	"github.com/newrelic/newrelic-client-go/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-go/pkg/accounts"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/common"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrtime"
 )
 
 // ServiceLevelEventsQuerySelectFunction - The function to use in the SELECT clause.

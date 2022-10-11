@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	mock "github.com/newrelic/newrelic-client-go/pkg/testhelpers"
+	mock "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 func TestIntegrationAPIAccess_InsightsInsertKeys(t *testing.T) {

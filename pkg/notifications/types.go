@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/newrelic/newrelic-client-go/pkg/ai"
-	"github.com/newrelic/newrelic-client-go/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-go/pkg/ai"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrtime"
 )
 
 // AiNotificationsAuthType - Authentication types

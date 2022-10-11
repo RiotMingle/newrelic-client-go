@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/newrelic/newrelic-client-go/internal/serialization"
+	"github.com/RiotMingle/newrelic-client-go/internal/serialization"
 )
 
 // Incident represents a New Relic alert incident.

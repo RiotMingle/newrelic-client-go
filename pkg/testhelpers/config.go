@@ -8,16 +8,16 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/newrelic/newrelic-client-go/pkg/config"
-	"github.com/newrelic/newrelic-client-go/pkg/region"
+	"github.com/RiotMingle/newrelic-client-go/pkg/config"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/region"
 )
 
 const (
-	HTTPTimeout    = 60 * time.Second                                  // HTTPTimeout increases the timeout for integration tests
-	LicenseKey     = "APMLicenseKey"                                   // LicenseKey used in mock configs
-	LogLevel       = "debug"                                           // LogLevel used in mock configs
-	PersonalAPIKey = "personalAPIKey"                                  // PersonalAPIKey used in mock configs (from Environment for Integration tests)
-	UserAgent      = "newrelic/newrelic-client-go (automated testing)" // UserAgent used in mock configs
+	HTTPTimeout    = 60 * time.Second                                      // HTTPTimeout increases the timeout for integration tests
+	LicenseKey     = "APMLicenseKey"                                       // LicenseKey used in mock configs
+	LogLevel       = "debug"                                               // LogLevel used in mock configs
+	PersonalAPIKey = "personalAPIKey"                                      // PersonalAPIKey used in mock configs (from Environment for Integration tests)
+	UserAgent      = "RiotMingle/newrelic-client-gogo (automated testing)" // UserAgent used in mock configs
 )
 
 // NewTestConfig returns a fully saturated configration with modified BaseURLs

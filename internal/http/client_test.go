@@ -11,15 +11,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/newrelic-client-go/pkg/contextkeys"
+	"github.com/RiotMingle/newrelic-client-go/pkg/contextkeys"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/newrelic/newrelic-client-go/pkg/config"
-	"github.com/newrelic/newrelic-client-go/pkg/errors"
-	"github.com/newrelic/newrelic-client-go/pkg/logging"
-	mock "github.com/newrelic/newrelic-client-go/pkg/testhelpers"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/config"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/errors"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/logging"
+	mock "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
 )
 
 const (
@@ -58,7 +58,7 @@ func TestConfigDefaults(t *testing.T) {
 
 	c := NewClient(tc)
 
-	assert.Contains(t, c.config.UserAgent, "newrelic/newrelic-client-go")
+	assert.Contains(t, c.config.UserAgent, "RiotMingle/newrelic-client-gogo")
 	assert.Equal(t, c.config.ServiceName, testServiceName+"|newrelic-client-go")
 }
 

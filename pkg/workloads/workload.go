@@ -3,10 +3,10 @@ package workloads
 import (
 	"context"
 
-	"github.com/newrelic/newrelic-client-go/internal/serialization"
-	"github.com/newrelic/newrelic-client-go/pkg/errors"
-	"github.com/newrelic/newrelic-client-go/pkg/nerdgraph"
-	"github.com/newrelic/newrelic-client-go/pkg/users"
+	"github.com/RiotMingle/newrelic-client-go/internal/serialization"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/errors"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/nerdgraph"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/users"
 )
 
 // Workload represents a New Relic One workload.

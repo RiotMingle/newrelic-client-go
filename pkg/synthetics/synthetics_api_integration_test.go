@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"os"
 
-	mock "github.com/newrelic/newrelic-client-go/pkg/testhelpers"
+	mock "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 var tv bool = true

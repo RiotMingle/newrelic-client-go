@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/newrelic/newrelic-client-go/pkg/errors"
+	"github.com/RiotMingle/newrelic-client-go/pkg/errors"
 
-	"github.com/newrelic/newrelic-client-go/internal/http"
-	"github.com/newrelic/newrelic-client-go/internal/serialization"
+	"github.com/RiotMingle/newrelic-client-gogo/internal/http"
+	"github.com/RiotMingle/newrelic-client-gogo/internal/serialization"
 )
 
 // IncidentPreferenceType specifies rollup settings for alert policies.

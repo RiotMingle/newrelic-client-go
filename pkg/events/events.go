@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/newrelic/newrelic-client-go/internal/http"
-	"github.com/newrelic/newrelic-client-go/pkg/config"
-	"github.com/newrelic/newrelic-client-go/pkg/logging"
+	"github.com/RiotMingle/newrelic-client-go/internal/http"
+	"github.com/RiotMingle/newrelic-client-go/pkg/config"
+	"github.com/RiotMingle/newrelic-client-go/pkg/logging"
 )
 
 const (

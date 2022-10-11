@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/newrelic/newrelic-client-go/pkg/accounts"
-	"github.com/newrelic/newrelic-client-go/pkg/ai"
-	"github.com/newrelic/newrelic-client-go/pkg/common"
-	"github.com/newrelic/newrelic-client-go/pkg/nrdb"
-	"github.com/newrelic/newrelic-client-go/pkg/nrtime"
-	"github.com/newrelic/newrelic-client-go/pkg/servicelevel"
-	"github.com/newrelic/newrelic-client-go/pkg/users"
+	"github.com/RiotMingle/newrelic-client-go/pkg/accounts"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/ai"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/common"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrdb"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/nrtime"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/servicelevel"
+	"github.com/RiotMingle/newrelic-client-gogo/pkg/users"
 )
 
 type AccountStatus string
