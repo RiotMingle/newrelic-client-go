@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/common"
-	mock "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
+	mock "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 func TestIntegrationWorkloadCreate(t *testing.T) {

@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/ai"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/notifications"
+	"github.com/RiotMingle/newrelic-client-go/pkg/notifications"
 
-	mock "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
+	mock "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 func TestWorkflows(t *testing.T) {

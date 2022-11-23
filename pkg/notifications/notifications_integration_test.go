@@ -12,7 +12,7 @@ import (
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/ai"
 
-	mock "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
+	mock "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 func TestNotificationMutationDestination(t *testing.T) {

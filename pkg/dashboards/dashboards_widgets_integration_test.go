@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/entities"
-	mock "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
+	mock "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 func TestIntegrationDashboard_Billboard(t *testing.T) {
