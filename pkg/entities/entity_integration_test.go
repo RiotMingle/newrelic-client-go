@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/RiotMingle/newrelic-client-go/internal/http"
-	"github.com/RiotMingle/newrelic-client-gogo/pkg/common"
-	mock "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
+	"github.com/RiotMingle/newrelic-client-go/pkg/common"
+	mock "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 func TestIntegrationSearchEntities(t *testing.T) {

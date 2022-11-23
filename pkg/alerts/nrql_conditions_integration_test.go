@@ -11,7 +11,7 @@ import (
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/errors"
 
-	mock "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
+	mock "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 var (

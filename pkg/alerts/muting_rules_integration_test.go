@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/RiotMingle/newrelic-client-go/pkg/errors"
-	nr "github.com/RiotMingle/newrelic-client-gogo/pkg/testhelpers"
+	nr "github.com/RiotMingle/newrelic-client-go/pkg/testhelpers"
 )
 
 func TestIntegrationAlertsMutingRules(t *testing.T) {
